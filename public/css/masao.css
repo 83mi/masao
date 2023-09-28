@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.background {
+  padding: 10px;
+  width: 500px;
+  height: 550px;
+  background-size: cover;
+}
+
+.background.scroll {
+  background-image: url("/img/masao.png");
+  background-attachment: scroll;
+  background-position: top left 50%;
+}
