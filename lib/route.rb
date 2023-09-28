@@ -35,8 +35,7 @@ module Masao
     end
 
     post '/api/v1/word1', provides: :json do
-      params = JSON.parse(request.body.read)
-      @@api.word1(params)
+      @@api.word1(request.body.read)
     end
 
     post '/api/v1/word2', provides: :json do
