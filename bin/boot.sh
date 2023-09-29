@@ -2,7 +2,7 @@
 # exit on error
 set -o errexit
 
-export LANG=ja_JP.UTF-8
+export LANG=C.UTF-8
 
 #bundle exec rake assets:precompile
 #bundle exec rake assets:clean
