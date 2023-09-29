@@ -9,6 +9,5 @@ module Masao
 
     require_relative 'helper'
     require_relative 'route'
-    require_relative 'worker'
   end
 end

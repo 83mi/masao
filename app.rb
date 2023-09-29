@@ -25,7 +25,4 @@ else
   API_KEY = ENV['API_KEY']
 end
 
-puts "API_KEY"
-puts API_KEY
-
 require_relative 'lib/masao'
