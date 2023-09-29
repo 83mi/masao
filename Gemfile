@@ -3,7 +3,7 @@ ruby '3.1.2'
 
 gem 'sinatra'
 gem "sinatra-contrib"
-gem "thin"
+gem "puma"
 gem 'redis'
 gem "json"
 gem "rake"
