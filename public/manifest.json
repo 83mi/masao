@@ -1,9 +1,17 @@
 {
-    "name": "Masao",
+  
+    "lang": "ja",
+    "name": "Masao API",
+    "short_name": "Masao",
     "icons": [
         {
             "src": "/android-chrome-144x144.png",
             "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
             "type": "image/png"
         }
     ],
