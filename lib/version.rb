@@ -1,5 +1,5 @@
 class Masao_Status
-  VERSION = '0.0.3'
+  VERSION = '0.0.4'
   def Masao_Status::Version
     VERSION
   end
@@ -18,6 +18,7 @@ end
 class Masao_Doc
   def Masao_Doc::ReleaseNote
     data = <<~EOF
+      0.0.4 辞書更新 20250127
       0.0.3 backend: thin to Puma
       0.0.2 redis対応
       0.0.1 release
